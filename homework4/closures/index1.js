@@ -1,6 +1,6 @@
 //Create a counter function using closure that increments a count every time it's called.
+let i = 0;
 function createCounter() {
-  let i = 0;
   return () => {
     return ++i;
   };
