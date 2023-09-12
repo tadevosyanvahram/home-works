@@ -1,20 +1,35 @@
 // Calculator Constructor
 function Calculator() {
-  this.add = function (a, b) {
+  Calculator.prototype.add = function(a, b) {
     return a + b;
   };
-
-  this.subtract = function (a, b) {
+  
+  Calculator.prototype.subtract = function(a, b) {
     return a - b;
   };
-
-  this.multiply = function (a, b) {
+  
+  Calculator.prototype.multiply = function(a, b) {
     return a * b;
   };
-
-  this.divide = function (a, b) {
+  
+  Calculator.prototype.divide = function(a, b) {
     return a / b;
   };
+  // this.add = function (a, b) {
+  //   return a + b;
+  // };
+
+  // this.subtract = function (a, b) {
+  //   return a - b;
+  // };
+
+  // this.multiply = function (a, b) {
+  //   return a * b;
+  // };
+
+  // this.divide = function (a, b) {
+  //   return a / b;
+  // };
 }
 
 const calculator = new Calculator();
