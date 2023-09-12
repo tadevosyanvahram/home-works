@@ -5,14 +5,13 @@ function wordMatrix(matrix, word) {
   return concatenatedString.includes(word);
 }
 
-// Example usage
 const matrix = [
   ["c", "a", "t"],
   ["d", "o", "g"],
   ["p", "i", "g"],
 ];
 
-const word = "cat";
+const word = "pig";
 const existsWord = wordMatrix(matrix, word);
 
 console.log(

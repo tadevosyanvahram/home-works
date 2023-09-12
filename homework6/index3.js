@@ -39,3 +39,23 @@ person1.poop();
 console.log(person1.stomach);
 person1.eat("watermelon");
 console.log(person1.stomach);
+
+//Baby
+function Baby(name, age, favoriteToy) {
+  Person.call(this, name, age);
+
+  this.favoriteToy = favoriteToy;
+
+  this.play = function () {
+    return `Playing with ${this.favoriteToy}`;
+  };
+}
+
+Baby.prototype = Object.create(Person.prototype);
+
+const baby = new Baby("Maria", 2, "Barbie");
+
+console.log(baby.toString());
+console.log(baby.play());
+baby.eat("apple");
+console.log(baby.stomach);

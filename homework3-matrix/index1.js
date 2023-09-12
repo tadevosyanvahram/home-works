@@ -7,7 +7,7 @@ function matrix(arr) {
   }
   let largestSum = -Infinity;
   let indexOfLargestSum = -1;
-  arr.forEach((item) => {
+  arr.forEach((item, i) => {
     const sum = item.reduce((acc, num) => acc + num, 0);
     if (sum > largestSum) {
       largestSum = sum;
@@ -17,7 +17,7 @@ function matrix(arr) {
   return indexOfLargestSum;
 }
 const matrixArray = [
-  [2, 4],
+  [2, 4, 10],
   [5, 7, 6],
   [6, 7],
 ];
