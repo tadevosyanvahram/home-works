@@ -9,4 +9,4 @@ const fibonacci = (num) => {
   }
 };
 
-console.log(fibonacci(7)); // Output: 13
+console.log(fibonacci(7)); 

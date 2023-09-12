@@ -26,5 +26,5 @@ function fibonacci(n) {
 
 const memoizedFibonacci = memoize(fibonacci);
 
-console.log(memoizedFibonacci(10)); // Output: 55 (calculated)
-console.log(memoizedFibonacci(10)); // Output: 55 (cached)
+console.log(memoizedFibonacci(10)); 
+console.log(memoizedFibonacci(10));

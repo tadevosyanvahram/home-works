@@ -22,4 +22,4 @@ function subsetSum(arr, targetSum, currentIndex = 0, currentSum = 0) {
 }
 
 const inputArray = [2, 4, 6, 8];
-console.log(subsetSum(inputArray, 10)); // Output: true
+console.log(subsetSum(inputArray, 10)); 

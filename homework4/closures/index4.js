@@ -17,9 +17,9 @@ function createPerson(name, age) {
 }
 
 const person = createPerson("Alice", 30);
-console.log(person.getName()); // Output: "Alice"
-console.log(person.getAge()); // Output: 30
+console.log(person.getName()); 
+console.log(person.getAge()); 
 person.setName("Bob");
 person.setAge(25);
-console.log(person.getName()); // Output: "Bob"
-console.log(person.getAge()); // Output: 25
+console.log(person.getName()); 
+console.log(person.getAge()); 

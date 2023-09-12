@@ -7,4 +7,4 @@ function gcd(num1, num2) {
   return gcd(num2, num1 % num2);
 }
 
-console.log(gcd(48, 18)); // Output: 6
+console.log(gcd(48, 18)); 

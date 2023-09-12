@@ -14,5 +14,5 @@ function isPalindrome(str) {
   return isPalindrome(str.slice(1, -1));
 }
 
-console.log(isPalindrome("Racecar")); // Output: true
-console.log(isPalindrome("hello")); // Output: false
+console.log(isPalindrome("Racecar")); 
+console.log(isPalindrome("hello")); 

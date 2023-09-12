@@ -13,4 +13,4 @@ function countOccurrences(arr, value, index = 0, count = 0) {
 }
 
 const numbers = [2, 3, 4, 2, 5, 2, 6, 2];
-console.log(countOccurrences(numbers, 2)); // Output: 4
+console.log(countOccurrences(numbers, 2)); 

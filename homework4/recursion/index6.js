@@ -17,5 +17,5 @@ function binarySearch(arr, target, left = 0, right = arr.length - 1) {
 }
 
 const sortedArray = [1, 3, 5, 7, 9, 11, 13, 15, 17];
-console.log(binarySearch(sortedArray, 9)); // Output: 4
-console.log(binarySearch(sortedArray, 10)); // Output: -1
+console.log(binarySearch(sortedArray, 9)); 
+console.log(binarySearch(sortedArray, 10)); 

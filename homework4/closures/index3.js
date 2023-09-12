@@ -17,5 +17,5 @@ function createCachingFunction() {
 
 const cachedCalculation = createCachingFunction();
 
-console.log(cachedCalculation(5)); // Output: 10 (calculated)
-console.log(cachedCalculation(5)); // Output: 10 (cached)
+console.log(cachedCalculation(5)); 
+console.log(cachedCalculation(5)); 

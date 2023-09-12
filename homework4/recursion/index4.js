@@ -7,4 +7,4 @@ function arraySum(arr) {
   }
 }
 
-console.log(arraySum([1, 2, 3, 4, 5])); // Output: 15
+console.log(arraySum([1, 2, 3, 4, 5])); 

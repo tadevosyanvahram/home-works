@@ -12,6 +12,6 @@ function privateVariable(num) {
 }
 
 const secretValue = privateVariable(42);
-console.log(secretValue.get()); // Output: 42
+console.log(secretValue.get()); 
 secretValue.set(100);
-console.log(secretValue.get()); // Output: 100
+console.log(secretValue.get()); 
