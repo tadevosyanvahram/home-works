@@ -30,11 +30,12 @@ function Person(name, age) {
   };
 }
 
-// Usage example:
 const person1 = new Person("Mary", 50);
 person1.eat("apple");
-person1.eat("banana");
-console.log(person1.stomach); 
-console.log(person1.toString()); 
+person1.eat("watermelon");
+console.log(person1.stomach);
+console.log(person1.toString());
 person1.poop();
+console.log(person1.stomach);
+person1.eat("watermelon");
 console.log(person1.stomach);
