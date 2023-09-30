@@ -1,8 +1,7 @@
 const obj = {
   nameParts: [],
   get name() {
-      return this.nameParts.map((val) => [val, val.length]
-      );
+      return this.nameParts.map((val) => [val, val.length]);
   },
   set name(val) {
     if (typeof val === "string") {
