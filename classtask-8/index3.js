@@ -50,13 +50,13 @@ class UniversityMember {
 
 class Teacher extends UniversityMember {
   constructor(name, age) {
-    super(name, age, "Teacher");
+    super(name, age);
   }
 }
 
 class Student extends UniversityMember {
   constructor(name, age) {
-    super(name, age, "Student");
+    super(name, age);
   }
 }
 
@@ -69,7 +69,7 @@ const student2 = new Student("Maria", 20);
 university.addMember(teacher1);
 university.addMember(teacher2);
 university.addMember(student1);
-university.addMember(student2); 
+university.addMember(student2);
 
 console.log("Before lesson:");
 console.log(teacher1.info());
