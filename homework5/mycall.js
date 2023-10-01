@@ -1,7 +1,10 @@
-Function.prototype.myCall = function (obj, ...args) {
-  obj.customCall = this;
-  const result = obj.customCall(...args);
-  delete obj.customCall; // Clean up after the function call
+Function.prototype.myCall = function (context, ...args) {
+  // this is always function because we added it on Function.prototype
+
+  // this()
+  context.customCall = this;
+  const result = context.customCall(...args);
+  delete context.customCall;
   return result;
 };
 
@@ -12,6 +15,6 @@ function f(hobbie1, hobbie2) {
 const person = {
   name: "Vahram",
 };
-
+f;
 let result = f.myCall(person, "Music", "Movies");
 console.log(result);
